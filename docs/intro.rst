@@ -141,3 +141,14 @@ on *irc.efnet.org*.
 .. _github: https://github.com/jquast/x84
 .. _web.py: http://webpy.org/
 .. _paramiko: http://www.lag.net/paramiko/
+
+Regarding The H74N Fork
+=======================
+
+The ultimate goal of this fork is to port the entire project into Python3, and make it cross platform so that it can run on Windows as well. Preferrably inside one (massive) file with all the classes in it so the user can just run that script and leave it running. A lot of work is to be done, obviously, as this is a multi library application but this is what I plan to do:
+
+-pack everything into one file and one port. At the end of this there will be only one way left to connect, and I will make a client also in Python3 for that connection.
+
+-The communications will be encrypted by XORing a long key -- well, not the most secure method but it will serve its purpose. 
+
+Any help appreciated. 
